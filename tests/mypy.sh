@@ -8,4 +8,4 @@ cd "$(dirname $0)" && cd ../ && test -f .project-root-dir
 
 source .venv/bin/activate
 
-black --verbose --check --line-length 120 -v src/ tests/ stubs/
+mypy --config-file setup.cfg --verbose src/ tests/ stubs/
