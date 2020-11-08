@@ -8,5 +8,4 @@ cd "$(dirname $0)" && cd ../ && test -f .project-root-dir
 
 source .venv/bin/activate
 
-isort -v src/ --check
-isort -v tests/ --check
+isort -v --check src/ tests/
