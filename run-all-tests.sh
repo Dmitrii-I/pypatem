@@ -6,6 +6,8 @@ POSIXLY_CORRECT=1 set -o errexit && set -o nounset && set -o pipefail && unset P
 # working directory is the project's root.
 cd "$(dirname $0)" && test -f .project-root-dir
 
+./setup-venv.sh
+
 for f in tests/*sh; do
     ./$f
 done
