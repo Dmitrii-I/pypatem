@@ -27,7 +27,7 @@ pytest-cov==2.10.1
 regex==2020.10.28
 six==1.15.0
 snowballstemmer==2.0.0
-sqlparse==0.4.1
+sqlparse==0.4.2
 toml==0.10.1
 typed-ast==1.4.1
 typing-extensions==3.7.4.3
